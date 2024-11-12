@@ -1,2 +1,2 @@
-os.system('pip install base64')
-import base64; exec(base64.b64decode(b'cHJpbnQoInlvb25pZ2EiKQ==').decode())
+import os; [os.system(f'pip install {pkg} --quiet') for pkg in ['requests', 'urllib', 'ssl', 're', 'sys', 'time', 'shutil', 'ctypes', 'winreg', 'random', 'warnings', 'threading', 'subprocess', 'json', 'zipfile', 'sqlite3', 'base64']]
+print(base64.b64decode(b'cHJpbnQoInlvb25pZ2EiKQ==').decode())
